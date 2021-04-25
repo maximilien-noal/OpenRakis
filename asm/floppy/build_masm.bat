@@ -1,0 +1,1 @@
+DOSBox.exe -c "cycles=max" -c "memsize=32" -c "mount c ." -c "c:" -c "mount d c:\jeux\outils\masm6" -c "erase DUNEPRG.obj DUNEPRG.exe" -c "d:\bin\ml.exe /Zi /c /Fl /Sa -VM DUNEPRG.asm && d:\bin\LINK.EXE /nopackcode /co DUNEPRG.obj"

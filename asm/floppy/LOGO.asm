@@ -37,7 +37,7 @@ assume es:nothing, ss:seg003, ds:nothing
 
 public start
 start proc near
-mov	ax, seg	dseg
+mov	ax, seg dseg
 mov	ds, ax
 assume ds:dseg
 mov	ax, es:2
